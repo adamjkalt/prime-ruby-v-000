@@ -8,16 +8,3 @@ def prime?(integer)
   end
   return true
 end
-
-
-
-  loop do
-    counter +=1
-    if integer % counter == 0
-      false
-    elsif counter == integer
-      return true
-      break
-    end
-  end
-end
