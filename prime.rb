@@ -3,13 +3,13 @@ def prime?(integer)
   until counter == integer
     if integer % counter == 0
       return false
+    end
     counter +=1
-  end
   end
 end
 
 
-    
+
   loop do
     counter +=1
     if integer % counter == 0
