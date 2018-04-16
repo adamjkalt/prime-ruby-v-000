@@ -1,7 +1,10 @@
 def prime?(integer)
   counter = 2
   until counter == integer
+    if integer % counter == 0
+      return false
     counter +=1
+  end
   end
 end
 
