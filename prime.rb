@@ -1,6 +1,5 @@
 def prime?(integer)
   if integer < 2
-    puts integer
     return false
   end
   counter = 2
